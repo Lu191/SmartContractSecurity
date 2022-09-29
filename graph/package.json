@@ -1,0 +1,16 @@
+{
+  "name": "scs_api_update",
+  "version": "1.0.0",
+  "description": "updates the api of the project scs to update the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9"
+  }
+}

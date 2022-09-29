@@ -1,0 +1,26 @@
+@use "../scss/" as *;
+
+.white-text-page {
+     color: $header-bg;
+}
+
+.upperPage {
+     display: flex;
+     margin: auto;
+     width: 70%;
+     justify-content: space-between;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+
+     @include mobile {
+          margin: 5% auto;
+     }
+}
+
+.chart { 
+     display: flex;
+     margin: auto;
+     width: 100%;
+     justify-content: center;
+     margin-bottom: 2rem;
+}

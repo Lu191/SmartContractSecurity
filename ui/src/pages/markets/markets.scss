@@ -1,0 +1,12 @@
+@use "../../scss/" as *;
+
+.assetList {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 70%;
+
+    @include mobile {
+        width: 100%;
+    }
+}
